@@ -54,11 +54,11 @@ private:
 
     // Attribute
     const Atom *__atomObj;
-    const double __VDWR;
-    const double __probeR;
-    const double __realR;
-    const double __fullS;
-    const double __dS;
+    double __VDWR;
+    double __probeR;
+    double __realR;
+    double __fullS;
+    double __dS;
     vector<RowVector3d> __ballCoord;
 };
 
