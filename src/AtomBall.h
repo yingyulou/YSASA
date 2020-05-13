@@ -43,7 +43,7 @@ public:
     double realR() const { return __realR; }
     double fullS() const { return __fullS; }
     double dS() const { return __dS; }
-    const vector<RowVector3d> &ballCoord() const { return __ballCoord; }
+    vector<RowVector3d> ballCoord() const { return __ballCoord; }
 
 
     // Calc loss S with another ball
