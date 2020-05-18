@@ -33,7 +33,7 @@ using PDBTools::Protein;
 Protein *LoadPDB(const string &pdbFilePath, const vector<RowVector3d> &unitBallCoord,
     double probeR, vector<AtomBall> &atomBallObjList)
 {
-    Protein *proPtr = Load(pdbFilePath);
+    Protein *proPtr = Load(pdbFilePath, true);
 
     for (auto atomPtr: proPtr->GetAtoms())
     {
